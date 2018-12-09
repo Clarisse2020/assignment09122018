@@ -1,15 +1,16 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
 }
 
 header{
     display: float;
-    background-color: black;
+    background-color: rgb(31, 15, 15);
     padding: 20px;
     
 }
-header h1{
-    color: #ff953f;
+header img{
+  
     margin-top: 0;
     float: left;
     width: 25%;
@@ -17,7 +18,7 @@ header h1{
 }
 ul, ol{
     list-style: none;
-   
+    
 
 }
 nav{
@@ -39,34 +40,48 @@ nav li a{
     padding: 20px
 }
 .container{
-    max-width: 80%;
-  margin: 0 auto;
-  margin-top: 30px;
   
-
+    max-width: 100%;
+  margin-left: 150px;
+  margin-top: 10px;
 }
 section{
+    
     display: inline-block;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 150px;
+    background-color: rgb(14, 106, 182);
 }
+
+
 #left-section{
     float: left;
-    width: 30%;
+    
 }
 #main-section{
-   
+    float: right;
+
 
 }
 #right-section{
-    width: 20%;
-
+    float: right;
+    padding-left: 87px;
+    width: 30%;
 }
-
+form{
+    padding-left: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: gray;
+    margin: 20px 350px 20px 350px;
+}
 footer{
-    background: #111110;
+    background: rgb(31, 15, 15);
    
 }
 footer p{
     text-align: center;
      color:white;
-     padding: 25%;
+     padding: 2%;
 }
