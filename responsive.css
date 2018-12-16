@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+#coffee{
+    background-color: bisque;
+    padding: 20px;
+
+}
+#tea li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    margin: 10px
+}
+.mainsection{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+#right{
+    flex: 35%;
+    padding: 20px;
+
+}
+#left{
+    flex:65%;
+    padding: 10px;
+}
+#kiss{
+    background-color: bisque;
+    padding: 20px;
+}
+@media (max-width:500px){
+    #header{
+        flex-direction: column;
+
+    }
+    #tea li{
+        flex-direction: column;
+
+    } 
+}
